@@ -1,0 +1,1 @@
+### This is a rock paper scissor game as part of the odin project's curriculum

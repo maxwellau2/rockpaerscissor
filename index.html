@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="navbar-button">Reset Score</button>
+    </nav>
+    <section class="ui-elements">
+        <div class="display">
+            <div class="player" id="player">
+                <div>Player</div>
+                <div id="player_score">0</div>
+                <div class="status">You played: <div id="player_move">move</div> </div>
+            </div>
+            <div class="player">VS</div>
+            <div class="player" id="computer">
+                <div>PC</div>
+                <div id="computer_score">0</div>
+                <div class="status">Computer played: <div id="computer_move">move</div> </div>
+            </div>
+        </div>
+        <nav class="rps-display">
+            <button class="rps-button" id="player_rock">Rock</button>
+            <button class="rps-button" id="player_paper">Paper</button>
+            <button class="rps-button" id="player_scissor">Scissor</button>
+        </nav>
+    </section>
+    <script src="./scripts.js"></script>
+</body>
+</html>
