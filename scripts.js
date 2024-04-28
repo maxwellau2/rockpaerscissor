@@ -76,10 +76,20 @@ function decide(player_move){
     }
 }
 
+function reset_score(){
+    computer_score.innerHTML = 0;
+    player_score.innerHTML = 0;
+    player_bg.style.backgroundColor = "blanchedalmond";
+    computer_bg.style.backgroundColor = "blanchedalmond";
+    return;
+}
+
 const rock = document.getElementById("player_rock");
 const paper = document.getElementById("player_paper");
 const scissor = document.getElementById("player_scissor");
+const reset_button = document.getElementById("reset_button");
 
 rock.addEventListener("click", rock_human);
 paper.addEventListener("click", paper_human);
 scissor.addEventListener("click", scissor_human);
+reset_button.addEventListener("click", reset_score);
